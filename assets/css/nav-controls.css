@@ -1,0 +1,61 @@
+@import url("./_vars.css");
+
+.nav__controls {
+  width: 5%;
+  background-color: var(--background-color-section);
+  color: var(--color-text-primary);
+  margin: 1rem 1rem 1rem 0;
+  padding: 1rem;
+}
+
+.nav__controls__theme {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.nav__controls__menu {
+  text-align: center;
+}
+
+.nav__controls__menu__titlte {
+  text-decoration: none;
+  color: var(--color-text-primary);
+  /* text-decoration: underline; */
+  font-weight: 600;
+}
+
+.nav__controls__menu__titlte:hover {
+  color: var(--color-yellow);
+}
+
+.nav__controls__menu__redes-sociales {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.nav__controls__menu__redes-sociales span {
+  background-color: var(--color-yellow);
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.nav__controls__menu__redes-sociales span:hover {
+  background-color: var(--icon-hover);
+}
+
+/* ---------------------------------- */
+/* RESPONSIVE */
+/* ---------------------------------- */
+
+@media screen and (max-width: 700px) {
+  .nav__controls {
+    width: 90%;
+    top: 0px;
+    position: absolute;
+    margin: 0;
+  }
+
+  .nav__controls__menu__redes-sociales {
+    display: none;
+  }
+}

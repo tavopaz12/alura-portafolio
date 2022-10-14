@@ -1,0 +1,19 @@
+:root {
+  --background-color: #18191b;
+  --background-color-section: #242527;
+  --color-text-primary: #f8f8f8;
+  --color-text-secondary: #a7a1a1;
+  --color-yellow: #feb300;
+  --color-text-button: white;
+  --icon-hover: #a87705;
+}
+
+[theme="light"] {
+  --background-color: #ffffff;
+  --background-color-section: #efeff0;
+  --color-text-primary: #000000;
+  --color-text-secondary: #706e6e;
+  --color-yellow: #0aa188;
+  --color-text-button:white;
+  --icon-hover: rgb(124, 226, 252);
+}

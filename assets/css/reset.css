@@ -1,0 +1,17 @@
+@import url("./_vars.css");
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  background-color: var(--background-color);
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    display: block;
+  }
+}

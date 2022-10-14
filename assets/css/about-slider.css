@@ -1,0 +1,75 @@
+@import url("./_vars.css");
+
+.about__slider {
+  background-color: var(--background-color-section);
+  color: var(--color-text-primary);
+  padding: 1rem;
+  margin: 1rem 0 1rem 1rem;
+  width: 20%;
+}
+
+.about__slider__image {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 200px;
+  border: solid 0.2rem rgb(10, 138, 177);
+}
+
+.about__slider__title {
+  text-align: center;
+  color: var(--color-text-primary);
+}
+
+.about__slider__description {
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.about__slider__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__slider__box__progress {
+  width: 100%;
+}
+
+.about__slider__box__progress::-moz-progress-bar {
+  background: var(--color-yellow);
+}
+
+.about__slider__box__progress {
+  background-color: #f3f3f3;
+  border: 1px;
+  height: 8px;
+  border-radius: 9px;
+}
+
+.about__slider__btn {
+  margin-top: 2rem;
+}
+
+.about__slider__btn--download {
+  background-color: rgb(6, 74, 114);
+  border: none;
+  padding: 0.3rem;
+  width: 100%;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.about__slider__btn--download a {
+  text-decoration: none;
+  color: var(--color-text-button);
+}
+
+@media screen and (max-width: 700px) {
+  .about__slider {
+    display: none;
+  }
+}
+
+/* ---------------------------------- */
+/* RESPONSIVE */
+/* ---------------------------------- */
+

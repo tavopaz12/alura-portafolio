@@ -1,0 +1,127 @@
+@import url("./_vars.css");
+
+.about__main {
+  margin: 1rem 1rem;
+  width: 75%;
+}
+
+.about__main__summary {
+  background-color: var(--background-color-section);
+  padding: 1rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.about__main__summary__title {
+  font-weight: bold;
+  color: var(--color-text-primary);
+}
+
+.about__main__summary__title--yellow {
+  color: var(--color-yellow);
+}
+
+.about__main__summary__description {
+  color: var(--color-text-secondary);
+  text-align: justify;
+}
+
+.about__main__summary__button {
+  background-color: var(--color-yellow);
+  border: none;
+  padding: 0.4rem;
+  color: var(--color-text-button);
+  font-weight: bold;
+  cursor: pointer;
+  width: 10rem;
+  border-radius: 0.5rem;
+}
+
+.about__main__summary__button:hover {
+  background-color: rgb(175, 117, 8);
+  color: beige;
+}
+
+.about__main__image {
+  margin-right: 1rem;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 200px;
+  border: solid 0.2rem rgb(10, 138, 177);
+}
+
+.about__main__service {
+  margin-top: 4rem;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.about__main__service__title {
+  color: var(--color-text-primary);
+}
+
+.about__main__service__description {
+  color: var(--color-text-secondary);
+}
+
+.about__main__skills {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+}
+
+.about__main__skills__container {
+  background-color: var(--background-color-section);
+  padding: 1rem;
+}
+
+.about__main__skills__tilte {
+  text-align: center;
+  color: var(--color-text-primary);
+}
+
+.about__main__skills__description {
+  color: var(--color-text-secondary);
+}
+
+.about__main__skills__image {
+  width: 100px;
+  margin: 0 auto;
+}
+
+/* ---------------------------------- */
+/* RESPONSIVE */
+/* ---------------------------------- */
+
+@media screen and (max-width: 700px) {
+  .about__main {
+    width: 100%;
+    margin: 0;
+    margin-top: 300px;
+    top: 0;
+  }
+  .about__main__summary {
+    display: block;
+  }
+
+  .about__main__summary__button {
+    width: 100%;
+  }
+
+  .about__main__image {
+    display: none;
+  }
+
+  .about__main__service {
+    margin-top: 2rem;
+    width: 80%;
+  }
+
+  .about__main__skills {
+    margin: 0 1rem;
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
